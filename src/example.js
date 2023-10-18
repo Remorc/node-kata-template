@@ -1,5 +1,5 @@
-function sum(num1, num2) {
+function myLocalSumFunction(num1, num2) {
     return num1 + num2
 }
 
-module.exports = { sum: sum }
+module.exports = { sum: myLocalSumFunction }
